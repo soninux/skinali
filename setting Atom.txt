@@ -1,0 +1,37 @@
+"*":
+  "build-sass":
+    alwaysEligible: true
+  "console-log":
+    identifierCase: true
+    noSelectionInsert: true
+    semiColons: true
+  core:
+    disabledPackages: [
+      "wrap-guide"
+      "atom-live-server"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "seti-ui"
+      "monokai"
+    ]
+  editor:
+    autoIndent: true
+    fontSize: 16
+    normalizeIndentOnPaste: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "9a88754a-7dfd-4b3d-ab72-32234116ec8a"
+  gist: {}
+  "gist-it": {}
+  "sass-autocompile":
+    checkOutputFileAlreadyExists: true
+    compileCompact: true
+    compileExpanded: true
+    compileFiles: "Only with first-line-comment"
+    compileNested: true
+    compilePartials: true
+    directlyJumpToError: true
+    sourceMapEmbed: true
+  welcome:
+    showOnStartup: false
